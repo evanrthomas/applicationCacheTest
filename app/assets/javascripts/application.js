@@ -15,8 +15,9 @@
 //= require_tree .
 
 $(function() {
-  $(window.applicationCache).bind("error", function() { // Don't actually know if this works or not, the tutorial told me to put it here
+  $(window.applicationCache).bind("error", eventData, function(eventObject) { // Don't actually know if this works or not, the tutorial told me to put it here
     alert("Error loading cache manifest");
+    console.log(eventObject);
   });
 });
 
