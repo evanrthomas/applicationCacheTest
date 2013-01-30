@@ -3359,3 +3359,2024 @@ Served asset /items.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-29 17:35:21 -0500
 Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 09:51:15 -0500
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 09:51:16 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 09:51:16 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 09:51:16 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 09:51:16 -0500
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 09:51:16 -0500
+CACHE MANIFEST
+# 1245087c6cc509321f6a288a32829bd85ca35c10c2a8b190bf06ea826017ae60
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 09:51:16 -0500
+Served asset /items.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 09:51:16 -0500
+Served asset /application.js - 304 Not Modified (47ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 09:51:16 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 166ms (Views: 89.0ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 09:51:16 -0500
+CACHE MANIFEST
+# 1245087c6cc509321f6a288a32829bd85ca35c10c2a8b190bf06ea826017ae60
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/items.json" for 127.0.0.1 at 2013-01-30 09:51:21 -0500
+Processing by ItemsController#index as JSON
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" 
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 09:51:29 -0500
+CACHE MANIFEST
+# a363a3e074f02e2e918575f4b3aa93068448b3abb614d685cdd7a227aa37e035
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 09:51:29 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 09:51:29 -0500
+CACHE MANIFEST
+# a363a3e074f02e2e918575f4b3aa93068448b3abb614d685cdd7a227aa37e035
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 09:51:30 -0500
+Served asset /scaffolds.css - 200 OK (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 09:51:30 -0500
+Served asset /application.css - 200 OK (42ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 09:51:30 -0500
+Served asset /items.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 09:51:30 -0500
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 09:51:30 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 09:51:30 -0500
+Served asset /jquery_ujs.js - 200 OK (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 09:51:30 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2013-01-30 09:51:33 -0500
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (52.5ms)
+  Rendered items/new.html.erb within layouts/application (77.0ms)
+Completed 200 OK in 89ms (Views: 83.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items/application.manifest" for 127.0.0.1 at 2013-01-30 09:51:33 -0500
+Processing by ItemsController#show as 
+  Parameters: {"id"=>"application"}
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", "application"]]
+Completed 404 Not Found in 4ms
+
+ActiveRecord::RecordNotFound (Couldn't find Item with id=application):
+  app/controllers/items_controller.rb:16:in `show'
+
+
+  Rendered /home/evan/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /home/evan/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /home/evan/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 09:51:33 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 09:51:33 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/items" for 127.0.0.1 at 2013-01-30 09:51:40 -0500
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZOLfTFT1MVtbY4sRQh5afI/p/vNFAiOUVHVhSnV4sWU=", "item"=>{"text"=>"I ain't a little bitch"}, "commit"=>"Create Item"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (100.1ms)[0m  INSERT INTO "items" ("created_at", "text", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 30 Jan 2013 14:51:40 UTC +00:00], ["text", "I ain't a little bitch"], ["updated_at", Wed, 30 Jan 2013 14:51:40 UTC +00:00]]
+  [1m[36m (137.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/items/1
+Completed 302 Found in 245ms (ActiveRecord: 238.0ms)
+
+
+Started GET "/items/1" for 127.0.0.1 at 2013-01-30 09:51:40 -0500
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered items/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items/application.manifest" for 127.0.0.1 at 2013-01-30 09:51:40 -0500
+Processing by ItemsController#show as 
+  Parameters: {"id"=>"application"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", "application"]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Item with id=application):
+  app/controllers/items_controller.rb:16:in `show'
+
+
+  Rendered /home/evan/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /home/evan/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/evan/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.5ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 09:51:40 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 09:51:40 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 09:51:42 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 09:51:42 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 09:51:42 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 09:51:42 -0500
+CACHE MANIFEST
+# b771a88be70b1015095f5d1135e0daf7a65a0d69db4edf813fc2d32d2ecf483f
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 09:51:42 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 09:51:42 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 09:51:42 -0500
+CACHE MANIFEST
+# b771a88be70b1015095f5d1135e0daf7a65a0d69db4edf813fc2d32d2ecf483f
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/items/new" for 127.0.0.1 at 2013-01-30 09:51:45 -0500
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (2.0ms)
+  Rendered items/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items/application.manifest" for 127.0.0.1 at 2013-01-30 09:51:45 -0500
+Processing by ItemsController#show as 
+  Parameters: {"id"=>"application"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", "application"]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Item with id=application):
+  app/controllers/items_controller.rb:16:in `show'
+
+
+  Rendered /home/evan/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/evan/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/evan/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (50.3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 09:51:45 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 09:51:45 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started POST "/items" for 127.0.0.1 at 2013-01-30 09:52:14 -0500
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZOLfTFT1MVtbY4sRQh5afI/p/vNFAiOUVHVhSnV4sWU=", "item"=>{"text"=>"Kevin Li's last name is two thirds of lie"}, "commit"=>"Create Item"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "items" ("created_at", "text", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Wed, 30 Jan 2013 14:52:14 UTC +00:00], ["text", "Kevin Li's last name is two thirds of lie"], ["updated_at", Wed, 30 Jan 2013 14:52:14 UTC +00:00]]
+  [1m[35m (227.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/items/2
+Completed 302 Found in 231ms (ActiveRecord: 227.6ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2013-01-30 09:52:14 -0500
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered items/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items/application.manifest" for 127.0.0.1 at 2013-01-30 09:52:14 -0500
+Processing by ItemsController#show as 
+  Parameters: {"id"=>"application"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", "application"]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Item with id=application):
+  app/controllers/items_controller.rb:16:in `show'
+
+
+  Rendered /home/evan/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /home/evan/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /home/evan/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.1ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 09:52:14 -0500
+Served asset /items.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 09:52:14 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 09:52:16 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 09:52:16 -0500
+CACHE MANIFEST
+# 147c9352f2decad8100dd6d8ff914b489a00ce3d53a5806b9563dbefdf2c82fb
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 09:52:16 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 09:52:16 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 09:52:16 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 09:52:16 -0500
+CACHE MANIFEST
+# 147c9352f2decad8100dd6d8ff914b489a00ce3d53a5806b9563dbefdf2c82fb
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 09:52:28 -0500
+CACHE MANIFEST
+# 674c7059b4c110a265c58dbcacd502170692e69d572adecee0b761d8801e5fba
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 09:52:28 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 09:52:28 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 09:52:28 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 09:52:28 -0500
+Served asset /items.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 09:52:28 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 09:52:28 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 09:52:28 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 09:52:28 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 09:52:28 -0500
+Served asset /application.js - 304 Not Modified (38ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 09:52:28 -0500
+CACHE MANIFEST
+# 674c7059b4c110a265c58dbcacd502170692e69d572adecee0b761d8801e5fba
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/items.json" for 127.0.0.1 at 2013-01-30 09:52:32 -0500
+Processing by ItemsController#index as JSON
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" [0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 09:52:35 -0500
+CACHE MANIFEST
+# a90a44eab653df0f2cfa3700e94f287a7de63d603dde0a0c97442eb33c546acf
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 09:52:35 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 09:52:35 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 18ms (Views: 15.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 09:52:35 -0500
+CACHE MANIFEST
+# a90a44eab653df0f2cfa3700e94f287a7de63d603dde0a0c97442eb33c546acf
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:00:34 -0500
+CACHE MANIFEST
+# fc6745c40b2204efb17cadfadf20d4ad6c0d309542d48680649c2a328dc88d9a
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 10:00:34 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 10:00:34 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:00:34 -0500
+CACHE MANIFEST
+# fc6745c40b2204efb17cadfadf20d4ad6c0d309542d48680649c2a328dc88d9a
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:00:35 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:00:35 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:00:35 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:00:35 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:00:35 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:00:35 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:00:35 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:08:44 -0500
+CACHE MANIFEST
+# 1a7a42d6798d82320c563a80fee1ea5cb3d45cd9e48b8912f2baab8a35e6c035
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 10:08:44 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (3.0ms)
+Compiled application.js  (4ms)  (pid 9388)
+Completed 200 OK in 152ms (Views: 151.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 10:08:45 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 17ms (Views: 14.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:08:45 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:08:45 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:08:45 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:08:45 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:08:45 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:08:45 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:08:45 -0500
+Served asset /application.js - 200 OK (6ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:08:45 -0500
+CACHE MANIFEST
+# 1a7a42d6798d82320c563a80fee1ea5cb3d45cd9e48b8912f2baab8a35e6c035
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:08:50 -0500
+CACHE MANIFEST
+# 434ac261c49116097e9e00eb5b71a64db0c54c6ffecfdfeb39daa37b5ce04617
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 10:08:50 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 10:08:50 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:08:50 -0500
+CACHE MANIFEST
+# 434ac261c49116097e9e00eb5b71a64db0c54c6ffecfdfeb39daa37b5ce04617
+500.html
+404.html
+422.html
+
+NETWORK:
+*
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:23 -0500
+Connecting to database specified by database.yml
+CACHE MANIFEST
+# 7d196a8425eb7a59bc9a09add5ffcd714e60debf4a151aba599e8d5eba082de4
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 10:09:24 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 146ms (Views: 92.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 10:09:24 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:24 -0500
+CACHE MANIFEST
+# 7d196a8425eb7a59bc9a09add5ffcd714e60debf4a151aba599e8d5eba082de4
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:32 -0500
+CACHE MANIFEST
+# 3779fbc0db3f8ca0281689c868042f14ae046b02bfbeda4f56e86b6f38f238b3
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 10:09:32 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 10:09:32 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:32 -0500
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:32 -0500
+Served asset /items.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:32 -0500
+Served asset /jquery_ujs.js - 200 OK (6ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:32 -0500
+Served asset /items.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:32 -0500
+Served asset /application.js - 200 OK (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:32 -0500
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:32 -0500
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:32 -0500
+CACHE MANIFEST
+# 3779fbc0db3f8ca0281689c868042f14ae046b02bfbeda4f56e86b6f38f238b3
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:33 -0500
+CACHE MANIFEST
+# 3779fbc0db3f8ca0281689c868042f14ae046b02bfbeda4f56e86b6f38f238b3
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:33 -0500
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:33 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:33 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:33 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:33 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:33 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:33 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:34 -0500
+CACHE MANIFEST
+# 3779fbc0db3f8ca0281689c868042f14ae046b02bfbeda4f56e86b6f38f238b3
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:34 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:34 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:34 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:34 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:34 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:34 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:34 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:35 -0500
+CACHE MANIFEST
+# 3779fbc0db3f8ca0281689c868042f14ae046b02bfbeda4f56e86b6f38f238b3
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:35 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:35 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:35 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:35 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:35 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:35 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:35 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:35 -0500
+CACHE MANIFEST
+# 3779fbc0db3f8ca0281689c868042f14ae046b02bfbeda4f56e86b6f38f238b3
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:35 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:35 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:35 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:35 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:35 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:35 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:35 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:36 -0500
+CACHE MANIFEST
+# 3779fbc0db3f8ca0281689c868042f14ae046b02bfbeda4f56e86b6f38f238b3
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:36 -0500
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:36 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:36 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:36 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:36 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:36 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:36 -0500
+CACHE MANIFEST
+# 3779fbc0db3f8ca0281689c868042f14ae046b02bfbeda4f56e86b6f38f238b3
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:37 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:37 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:37 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:37 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:37 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:37 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:37 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:37 -0500
+CACHE MANIFEST
+# 3779fbc0db3f8ca0281689c868042f14ae046b02bfbeda4f56e86b6f38f238b3
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:37 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:37 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:37 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:37 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:37 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:37 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:37 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:38 -0500
+CACHE MANIFEST
+# 3779fbc0db3f8ca0281689c868042f14ae046b02bfbeda4f56e86b6f38f238b3
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:38 -0500
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:38 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:38 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:38 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:38 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:38 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:38 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:38 -0500
+CACHE MANIFEST
+# 3779fbc0db3f8ca0281689c868042f14ae046b02bfbeda4f56e86b6f38f238b3
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:38 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:38 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:38 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:38 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:38 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:38 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:38 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:39 -0500
+CACHE MANIFEST
+# 3779fbc0db3f8ca0281689c868042f14ae046b02bfbeda4f56e86b6f38f238b3
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:39 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:39 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:39 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:39 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:39 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:39 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:39 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:39 -0500
+CACHE MANIFEST
+# 3779fbc0db3f8ca0281689c868042f14ae046b02bfbeda4f56e86b6f38f238b3
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:39 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:39 -0500
+Served asset /items.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:39 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:39 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:39 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:39 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:39 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:40 -0500
+CACHE MANIFEST
+# 82151b407eee497d7841ab2c3ffc890a2040739783ae7d1af2a29994da91ec23
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 10:09:40 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 20ms (Views: 15.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 10:09:40 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:40 -0500
+Served asset /application.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:40 -0500
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:40 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:40 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:40 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:40 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:40 -0500
+CACHE MANIFEST
+# 82151b407eee497d7841ab2c3ffc890a2040739783ae7d1af2a29994da91ec23
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:09:40 -0500
+CACHE MANIFEST
+# 82151b407eee497d7841ab2c3ffc890a2040739783ae7d1af2a29994da91ec23
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:41 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:41 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:41 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:09:41 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:41 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:41 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:09:41 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:10:13 -0500
+CACHE MANIFEST
+# e1e29e2d0f3b85245967b62b4168a71da2cc4f47c3a11d73d2e7fd01353ed9e4
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 10:10:13 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 10:10:13 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:10:13 -0500
+CACHE MANIFEST
+# e1e29e2d0f3b85245967b62b4168a71da2cc4f47c3a11d73d2e7fd01353ed9e4
+500.html
+422.html
+404.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:11:08 -0500
+Connecting to database specified by database.yml
+CACHE MANIFEST
+# f9931007c8fa7095be7d858f0d47af5035450b7a69adc36eff14e72a353a186f
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:09 -0500
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 10:11:09 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 156ms (Views: 59.8ms | ActiveRecord: 28.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 10:11:09 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:11:09 -0500
+CACHE MANIFEST
+# f9931007c8fa7095be7d858f0d47af5035450b7a69adc36eff14e72a353a186f
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:11:11 -0500
+CACHE MANIFEST
+# 7739481d7cf25a6a91b1b391d0239a62b2927530e9a577509398a8afe6b71443
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 10:11:11 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 10:11:11 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:11:11 -0500
+CACHE MANIFEST
+# 7739481d7cf25a6a91b1b391d0239a62b2927530e9a577509398a8afe6b71443
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:11 -0500
+Served asset /items.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:11 -0500
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:11 -0500
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:11 -0500
+Served asset /items.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:11 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:11 -0500
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:11 -0500
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:11:12 -0500
+CACHE MANIFEST
+# 7739481d7cf25a6a91b1b391d0239a62b2927530e9a577509398a8afe6b71443
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:12 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:12 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:12 -0500
+Served asset /items.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:12 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:12 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:12 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:11:12 -0500
+CACHE MANIFEST
+# 7739481d7cf25a6a91b1b391d0239a62b2927530e9a577509398a8afe6b71443
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:12 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:12 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:12 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:12 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:12 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:12 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:11:13 -0500
+CACHE MANIFEST
+# 7739481d7cf25a6a91b1b391d0239a62b2927530e9a577509398a8afe6b71443
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:13 -0500
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:13 -0500
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:13 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:13 -0500
+Served asset /items.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:13 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:13 -0500
+Served asset /items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:13 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:11:13 -0500
+CACHE MANIFEST
+# 7739481d7cf25a6a91b1b391d0239a62b2927530e9a577509398a8afe6b71443
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:13 -0500
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:13 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:13 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:14 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:14 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:14 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:14 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:11:16 -0500
+CACHE MANIFEST
+# 7739481d7cf25a6a91b1b391d0239a62b2927530e9a577509398a8afe6b71443
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:11:33 -0500
+CACHE MANIFEST
+# 2f8cfe3e9be79a87328d4a2eef63907e061e8b18f41057530a7807d8600af866
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 10:11:33 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 10:11:33 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:11:33 -0500
+CACHE MANIFEST
+# 2f8cfe3e9be79a87328d4a2eef63907e061e8b18f41057530a7807d8600af866
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:11:37 -0500
+CACHE MANIFEST
+# 2f8cfe3e9be79a87328d4a2eef63907e061e8b18f41057530a7807d8600af866
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:11:41 -0500
+CACHE MANIFEST
+# 1ca4bf673dbb5b454b8301f4b687b8778eb21e95f49014ea82aa598ab21d22b2
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 10:11:41 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 10:11:41 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:11:41 -0500
+CACHE MANIFEST
+# 1ca4bf673dbb5b454b8301f4b687b8778eb21e95f49014ea82aa598ab21d22b2
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:41 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:41 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:41 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:11:41 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:41 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:41 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:11:41 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:13:02 -0500
+CACHE MANIFEST
+# bc62d0e99d50d03ba5c305b5777a4fcbeb303a3c7112950e85fff720e32f3676
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 10:13:02 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 10:13:02 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:13:02 -0500
+CACHE MANIFEST
+# bc62d0e99d50d03ba5c305b5777a4fcbeb303a3c7112950e85fff720e32f3676
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:02 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:02 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:02 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:02 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:02 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:02 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:02 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:13:03 -0500
+CACHE MANIFEST
+# bc62d0e99d50d03ba5c305b5777a4fcbeb303a3c7112950e85fff720e32f3676
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:03 -0500
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:03 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:03 -0500
+Served asset /items.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:03 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:03 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:03 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:03 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:13:16 -0500
+CACHE MANIFEST
+# 966cedfb7031220303c7982c2cb162180bc28c6f2c25b2494b6a5821b21fc01d
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 10:13:16 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 10:13:16 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:16 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:16 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:16 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:16 -0500
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:16 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:16 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:13:16 -0500
+CACHE MANIFEST
+# 966cedfb7031220303c7982c2cb162180bc28c6f2c25b2494b6a5821b21fc01d
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:16 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:13:17 -0500
+CACHE MANIFEST
+# 966cedfb7031220303c7982c2cb162180bc28c6f2c25b2494b6a5821b21fc01d
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:17 -0500
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:17 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:17 -0500
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:17 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:17 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:17 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:17 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:13:26 -0500
+CACHE MANIFEST
+# 24b3116c65a08b94345c9a8863946d978e6c287e476f4f0a22a9e547b7f924df
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 10:13:26 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 10:13:26 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:26 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:26 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:26 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:26 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:26 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:26 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:26 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:13:26 -0500
+CACHE MANIFEST
+# 24b3116c65a08b94345c9a8863946d978e6c287e476f4f0a22a9e547b7f924df
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:13:31 -0500
+CACHE MANIFEST
+# 22c96eeee21ad109e81551f7ce57c21da339eef224be2f9207fb959f625ce32f
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 10:13:31 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2013-01-30 10:13:31 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" 
+  Rendered items/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:13:31 -0500
+CACHE MANIFEST
+# 22c96eeee21ad109e81551f7ce57c21da339eef224be2f9207fb959f625ce32f
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/application.manifest" for 127.0.0.1 at 2013-01-30 10:13:38 -0500
+CACHE MANIFEST
+# 22c96eeee21ad109e81551f7ce57c21da339eef224be2f9207fb959f625ce32f
+500.html
+404.html
+422.backup.html
+
+NETWORK:
+*
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:38 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:38 -0500
+Served asset /items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:38 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:38 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:13:38 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:38 -0500
+Served asset /items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:13:38 -0500
+Served asset /application.js - 304 Not Modified (3ms)
