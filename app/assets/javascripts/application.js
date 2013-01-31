@@ -15,9 +15,9 @@
 //= require_tree .
 
 $(function() {
-  $(window.applicationCache).bind("error", eventData, function(eventObject) { // Don't actually know if this works or not, the tutorial told me to put it here
+  $(window.applicationCache).bind("error", function(/*eventObject*/) { // Don't actually know if this works or not, the tutorial told me to put it here
+    // Somehow this gets thrown sometimes and doesn't get thrown other times. Idk what's going on. I can't reproduce the error. I fucking hate javascript and web programming and everything front end.
     alert("Error loading cache manifest");
-    console.log(eventObject);
   });
 });
 

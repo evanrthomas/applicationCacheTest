@@ -1,7 +1,5 @@
 <h1>Listing items</h1>
-<h1>Heroku Test Bitch</h1>
-<script src="/itemsJsonShit.js"></script>
-<table>
+<table id="itemsTable">
   <tr>
     <th>Text</th>
     <th></th>
@@ -9,16 +7,16 @@
     <th></th>
   </tr>
 
-<% @items.each do |item| %>
-  <tr>
-    <td><%= item.text %></td>
-    <td><%= link_to 'Show', item %></td>
-    <td><%= link_to 'Edit', edit_item_path(item) %></td>
-    <td><%= link_to 'Destroy', item, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
 </table>
 
-<br />
+<script type="text/html" id="itemTemplate">
+  <tr>
+    <td>${item.text}</td>
+    <td>${item.showLink}</td>
+    <td>${item.editLink}</td>
+    <td>${item.destroyLink}</td>
+  </tr>
+</script>
+<br/>
 
 <%= link_to 'New Item', new_item_path %>
