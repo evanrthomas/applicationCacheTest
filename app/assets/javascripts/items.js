@@ -5,6 +5,6 @@
 
 $(function() {
   $.retrieveJSON("/items.json", function (data) { // using jquery offline to get the items data and 
-    //alert(data);
+    $('#itemsTable').html($("#itemTemplate").tmpl(data));
   });
 });
